@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="topster.wahrheitpflicht" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Wahrheit oder Pflicht</name>
+    <description>
+        Beim Partyspiel Wahrheit oder Pflicht (oder auch Flaschen drehen) werden kuriose und peinliche Fragen sowie gemeine Aufgaben gestellt.
+    </description>
+    <author email="app@topster.de" href="http://www.topster.de">
+        Thomas Pustelnik
+    </author>
+    <preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <icon src="wahrheit-oder-pflicht.png" />
+    <access origin="*" />
+</widget>
