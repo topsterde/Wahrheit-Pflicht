@@ -3,9 +3,16 @@
     <head>
         <meta charset="utf-8" />
     </head>
-    <body>
+    <body bgcolor="#E0E0FF">
 		<script type="text/javascript">
-		window.location.href = "http://www.topster.de/xa/wahrheit-oder-pflicht/"
+		if (navigator.network != null && navigator.network.connection.type == Connection.NONE) 
+		{
+			window.location="error.html";
+		} 
+		else 
+		{
+			window.location.href = "http://www.topster.de/xa/wahrheit-oder-pflicht/"
+		}
 		</script>
     </body>
 </html>
