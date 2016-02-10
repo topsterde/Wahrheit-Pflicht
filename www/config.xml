@@ -29,4 +29,6 @@
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <icon src="wahrheit-oder-pflicht.png" />
     <access origin="*" />
+	<plugin name="cordova-plugin-whitelist" version="1" />
+	<allow-navigation href="http://www.topster.de/*" />
 </widget>
